@@ -10,7 +10,7 @@ What kind of math do you want?|
 1 for addition                |
 2 for subtraction             |
 3 for multiplication          |
-4 for division                |
+4 for division             |
 ______________________________
 """)
 if choice != 1 and choice != 2 and choice != 3 and choice != 4:
@@ -33,9 +33,6 @@ if valid == True:
     print("X * Y = " + str(x * y))
   if choice == 4:
     print("X / Y = " + str(x / y))
-
-
-
 
 
 ### How to improve:
