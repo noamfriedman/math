@@ -4,7 +4,7 @@
 valid = True
 
 # Pick the math choice
-choice = input("""
+choice = int(input("""
 ______________________________
 What kind of math do you want?|
 1 for addition                |
@@ -12,7 +12,7 @@ What kind of math do you want?|
 3 for multiplication          |
 4 for division             |
 ______________________________
-""")
+"""))
 if choice != 1 and choice != 2 and choice != 3 and choice != 4:
   print("You can not do this number only 1,2,3,4")
   valid = False
